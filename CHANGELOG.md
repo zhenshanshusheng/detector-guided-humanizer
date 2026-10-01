@@ -2,6 +2,10 @@
 
 All notable changes to this methodology are documented here. Format: `YYYY-MM-DD — description`.
 
+## [2.0.0] — 2026-10-02
+
+Checklist expanded from 8 to 16 rules by merging [blader/humanizer](https://github.com/blader/humanizer) v3.1.0 (MIT, via Wikipedia "Signs of AI writing"). New rules marked [H]: one-line closers, deep-sounding sayings, arguing-with-no-one, repeated openings, overused AI words, inflated significance, -ing riders, sales language, borrowed authority, verbose verbs. V1 rules (detector-validated) kept as the core; [H] rules adopted as pattern catalog. Rules reorganized into Staging / Rhythm / Inflation sections.
+
 ## [1.0.0] — 2026-10-02
 
 Initial release. Validated against Tencent Zhuque `@makers/zhuque-text` on a full-length English product review article (~8,300 chars): AI 100% → AI 0% / Suspected 65% / Human 35%.
