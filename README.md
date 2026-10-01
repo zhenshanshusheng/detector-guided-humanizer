@@ -1,5 +1,7 @@
 # Detector-Guided Humanizer
 
+> 📖 [中文介绍](README.zh-CN.md)
+
 A practical methodology for reducing AI-tone in AI-assisted writing, validated through controlled experiments against a commercial AI text detector (Tencent Zhuque, `@makers/zhuque-text`).
 
 **Core finding:** Don't guess what "sounds human." Use the detector itself as the judge. Generate diverse candidates, let the detector pick the winner, iterate on what remains.
